@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Currency Converter</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <div id="formContainer1">
+            <form id="form">
+                <h1 id="formTitle">Currency Converter</h1>
+                <input type="text" placeholder="Amount in Whole Pounds" id="pounds" class="formItem textbox" />
+                <input type="submit" form="form1" value="($) USD" id="usdBtn" class="formItem btn" onclick="usd()" />
+                <input type="submit" form="form1" value="(€) EUR" id="eurBtn" class="formItem btn" onclick="eur()" />
+                <input type="submit" form="form1" value="($) ASD" id="asdBtn" class="formItem btn" onclick="asd()" />
+                <input type="text" placeholder="Converted Currency" id="output" class="formItem textbox" readonly style="cursor: not-allowed;" />
+            </form>
+        </div>
+    </body>
+</html>
