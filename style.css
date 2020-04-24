@@ -82,3 +82,9 @@ body {
     border: none;
     height: 8%;
 }
+
+@media only screen and (max-height: 500px) {
+    body {
+        overflow-y: visible;
+    }
+}
